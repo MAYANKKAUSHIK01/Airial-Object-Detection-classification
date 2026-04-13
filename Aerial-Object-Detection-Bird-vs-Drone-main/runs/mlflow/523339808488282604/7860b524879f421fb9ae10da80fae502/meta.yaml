@@ -1,0 +1,14 @@
+artifact_uri: file:D:/Labmentix/Aerial-Object-Detection-Bird-vs-Drone/runs/mlflow/523339808488282604/7860b524879f421fb9ae10da80fae502/artifacts
+end_time: 1764424587204
+entry_point_name: ''
+experiment_id: '523339808488282604'
+lifecycle_stage: active
+run_id: 7860b524879f421fb9ae10da80fae502
+run_name: train
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764318103048
+status: 3
+tags: []
+user_id: artis

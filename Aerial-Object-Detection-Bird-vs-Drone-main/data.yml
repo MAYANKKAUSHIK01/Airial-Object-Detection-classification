@@ -1,0 +1,6 @@
+names:
+- bird
+- drone
+test: object_detection_Dataset//test
+train: object_detection_Dataset//train
+val: object_detection_Dataset//valid
