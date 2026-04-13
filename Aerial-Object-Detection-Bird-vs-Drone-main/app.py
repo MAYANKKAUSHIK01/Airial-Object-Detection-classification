@@ -17,7 +17,7 @@ def load_cnn_model():
     with st.spinner("Loading model..."):
         time.sleep(1)
         try:
-            model = load_model("best_model.keras")
+            model = load_model("models/")
         except FileNotFoundError:
             st.error("Model file not found: best_model.keras")
             model = None
@@ -27,7 +27,7 @@ def load_cnn_model():
 @st.cache_resource
 def load_yolo_model():
     try:
-        MODEL_PATH = "yolo11n.pt"  # change if needed
+        MODEL_PATH = "models/best_yolo_model.pt"  # change if needed
         model = YOLO(MODEL_PATH)
     except FileNotFoundError:
         model = None
