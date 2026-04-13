@@ -17,7 +17,7 @@ def load_cnn_model():
     with st.spinner("Loading model..."):
         time.sleep(1)
         try:
-            model = load_model("models/")
+            model = load_model("models/mobilenet_bird_drone_classifier.keras")
         except FileNotFoundError:
             st.error("Model file not found: best_model.keras")
             model = None
