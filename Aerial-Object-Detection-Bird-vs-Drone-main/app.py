@@ -32,7 +32,7 @@ def load_cnn_model():
 def load_yolo_model():
     try:
         BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-        model_path = os.path.join(BASE_DIR, "yolo11n.pt")  # ✅ Fixed: removed load_model() call
+        model_path = os.path.join(BASE_DIR, "yolo11n.pt") 
         model = YOLO(model_path)
     except Exception as e:
         st.error(f"YOLO Model file not found or failed to load: {e}")
